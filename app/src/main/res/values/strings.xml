@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">udacity-implicit-intents-app</string>
+    <string name="app_title">Implicit Intents</string>
+    <string name="open_map_btn_text">Open Google Maps</string>
+    <string name="open_udacity_btn_txt">Open Udacity</string>
+    <string name="share_text_content_btn_txt">Share Text Content</string>
+    <string name="create_your_own_btn_txt">Create Your Own</string>
+
 </resources>

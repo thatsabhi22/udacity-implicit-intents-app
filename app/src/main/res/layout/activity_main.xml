@@ -1,18 +1,55 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@android:color/background_dark"
+    android:orientation="vertical"
+    android:padding="8dp"
     tools:context="com.theleafapps.pro.udacityimplicitintentsapp.MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+    <Button
+        android:id="@+id/open_url_btn"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#dc6900"
+        android:text="@string/open_udacity_btn_txt"
+        android:textColor="@android:color/white"
+        android:textSize="22sp"
+        android:textStyle="bold" />
 
-</android.support.constraint.ConstraintLayout>
+    <Button
+        android:id="@+id/open_map_btn"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#eb8c00"
+        android:text="@string/open_map_btn_text"
+        android:textColor="@android:color/white"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/share_text_content_btn"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#e0301e"
+        android:text="@string/share_text_content_btn_txt"
+        android:textColor="@android:color/white"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/create_your_own_btn"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#a32020"
+        android:text="@string/create_your_own_btn_txt"
+        android:textColor="@android:color/white"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+</LinearLayout>
